@@ -1,9 +1,65 @@
-Korkma, sönmez bu şafaklarda yüzen al sancak;
-Sönmeden yurdumun üstünde tüten en son ocak.
-O benim milletimin yıldızıdır, parlayacak;
-O benimdir, o benim milletimindir ancak.
+HAVACILIK VE SAVUNMA SANAYİ TERİMLERİ SÖZLÜĞÜ
 
-Çatma, kurban olayım, çehreni ey nazlı hilal!
-Kahraman ırkıma bir gül... Ne bu şiddet, bu celal?
-Sana olmaz dökülen kanlarımız sonra helal;
-Hakkıdır, Hakk'a tapan, milletimin istiklal!
+AIRCRAFT: Uçak - Havada uçabilen, motorlu veya motorsuz hava taşıtlarının genel adı. Sabit kanatlı, dönük kanatlı ve hibrit konfigürasyonlarda üretilir.
+
+AVIONICS: Havacılık Elektroniği - Uçaklarda kullanılan elektronik sistemlerin genel adı. Navigasyon, haberleşme, radar ve kontrol sistemlerini kapsar.
+
+AUTOPILOT: Otopilot - Uçağın belirli bir rotada otomatik olarak uçmasını sağlayan sistem. Modern uçaklarda gelişmiş FMS sistemleri ile entegre çalışır.
+
+BALLISTIC MISSILE: Balistik Füze - Hedefe doğru fırlatıldıktan sonra yerçekimi etkisiyle hareket eden füze türü. Uzun menzilli stratejik silahlarda kullanılır.
+
+BOMBER: Bombardıman Uçağı - Yere karşı saldırı görevlerinde kullanılan ağır savaş uçağı. Stratejik ve taktik bombardıman görevleri icra eder.
+
+CARGO AIRCRAFT: Kargo Uçağı - Ticari veya askeri yük taşımacılığında kullanılan uçak türü. Sivil havayolları ve askeri lojistik operasyonlarında kritik rol oynar.
+
+CRUISE MISSILE: Seyir Füzesi - Düşük irtifada uçan, GPS ve INS güdümlü hassas vuruş silahı. Modern harp teknolojisinin önemli bir parçasıdır.
+
+DRONE: İnsansız Hava Aracı - Uzaktan kumandalı veya otonom uçan hava araçları. Keşif, gözetleme ve saldırı görevlerinde kullanılır.
+
+ENGINE: Motor - Uçakların itki gücünü sağlayan sistem. Jet, turbo prop ve piston motor teknolojileri havacılıkta yaygın kullanılır.
+
+FIGHTER JET: Avcı Uçağı - Hava üstünlüğü sağlamak için tasarlanan yüksek performanslı savaş uçağı. Modern radar ve füze sistemleri ile donatılır.
+
+FLAPS: Kanatçık - Uçağın kalkış ve iniş performansını artıran hareketli kanat parçaları. Aerodinamik verimliliği optimize eder.
+
+GPS: Küresel Konumlandırma Sistemi - Uydu tabanlı navigasyon sistemi. Havacılıkta hassas konum belirleme için kullanılır.
+
+HELICOPTER: Helikopter - Dönük kanatları ile dikey kalkış ve iniş yapabilen hava aracı. Arama kurtarma ve taktik operasyonlarda vazgeçilmezdir.
+
+INTERCEPTOR: Önleme Uçağı - Düşman uçaklarını engelleme görevinde kullanılan yüksek hızlı savaş uçağı. Hava savunmasının temel unsuru.
+
+LANDING GEAR: İniş Takımı - Uçağın yere iniş ve kalkış sırasında kullandığı destek sistemi. Hidrolik veya elektrik sistemlerle kontrol edilir.
+
+MACH NUMBER: Mach Sayısı - Bir nesnenin hızının ses hızına oranı. Süpersonik uçuş performansının temel ölçüsüdür.
+
+MISSILE: Füze - Hedefe yönlendirilen kendi kendine itki sağlayan silah sistemi. Hava-hava, hava-yer ve yer-hava füzeleri mevcuttur.
+
+NAVIGATION: Seyrüsefer - Uçağın güvenli rota planlaması ve takibi. GPS, INS ve klasik navigasyon yöntemleri kullanılır.
+
+PILOT: Pilot - Uçak kullanma yetkisine sahip havacı. Ticari ve askeri havacılıkta uçuş güvenliğinden sorumlu kişi.
+
+RADAR: Radar - Radio dalgaları ile nesne tespit sistemi. Hava trafik kontrolü ve askeri gözetlemede kritik teknoloji.
+
+RUNWAY: Pist - Uçakların kalkış ve iniş yaptığı hazırlanmış yol. Havaalanlarının temel altyapı elemanıdır.
+
+SUPERSONIC: Süpersonik - Ses hızından daha yüksek hız. Modern savaş uçaklarının temel kabiliyetlerinden biridir.
+
+TURBINE: Türbin - Jet motorlarında gaz akışından güç elde eden döner makina. Havacılık teknolojisinin kalbidir.
+
+UNMANNED: İnsansız - Pilot gerektirmeyen hava araçları. Modern askeri teknolojide artan kullanım alanına sahiptir.
+
+VERTICAL TAKEOFF: Dikey Kalkış - Helikopter ve VTOL uçaklarının özel kabiliyeti. Kısıtlı alanlarda operasyon imkanı sağlar.
+
+WARPLANE: Savaş Uçağı - Askeri görevlerde kullanılan silahlı hava aracı. Modern harp teknolojisinin en gelişmiş örnekleridir.
+
+X-PLANE: Deneysel Uçak - Yeni teknolojilerin test edildiği prototip hava araçları. Havacılık teknolojisinin geleceğini şekillendirir.
+
+YOKE: Kumanda Kolu - Uçağın pitch ve roll hareketlerini kontrol eden kumanda sistemi. Pilotun uçak kontrolündeki temel araçtır.
+
+ZERO VISIBILITY: Sıfır Görüş - Instrument flight conditions altında uçuş gerektiren hava koşulları. ILS ve GPS yaklaşım sistemleri kritik önem taşır.
+
+Bu sözlük havacılık ve savunma sanayinin temel terimlerini içermektedir. Her terim, tanımı ve kullanım alanı ile birlikte açıklanmıştır. Modern hava kuvvetleri bu teknolojileri kullanarak güvenlik ve savunma görevlerini yerine getirmektedir.
+
+Türk havacılık sanayisi son yıllarda büyük gelişim göstermiş, yerli ve milli teknolojilerle dünya standartlarında ürünler geliştirmiştir. ATAK helikopteri, TB2 İHA ve HÜRJET eğitim uçağı gibi projeler bu başarının örnekleridir.
+
+Gelecekte havacılık teknolojisi elektrikli motorlar, yapay zeka destekli sistemler ve yeni nesil malzemelerle daha da gelişecektir. Otonom uçuş sistemleri ve hibrit itki teknolojileri havacılığın geleceğini belirleyecek ana faktörlerdir.

@@ -1,29 +1,21 @@
-# train.py
-
 import torch
 import torch.nn as nn
 from torch.nn import functional as F
 
-# model.py dosyasındaki değişken ve fonksiyonları buraya taşıyalım veya import edelim.
-# Bu örnekte daha basit olması için tekrar tanımlıyoruz.
-
-# --- Hiperparametreler ---
-batch_size = 64
-block_size = 256
-max_iters = 5000
-eval_interval = 500
-learning_rate = 3e-4
+batch_size = 32
+block_size = 512
+max_iters = 3000
+eval_interval = 300
+learning_rate = 1e-4
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
-eval_iters = 200
-n_embd = 384
-n_head = 6
-n_layer = 6
-dropout = 0.2
-# --------------------
+eval_iters = 100
+n_embd = 512
+n_head = 8
+n_layer = 8
+dropout = 0.1
 
-torch.manual_seed(1337) # Tekrarlanabilirlik için
+torch.manual_seed(1337)
 
-# --- Veri Yükleme ve Hazırlama ---
 with open('input.txt', 'r', encoding='utf-8') as f:
     text = f.read()
 
@@ -39,7 +31,6 @@ n = int(0.9*len(data))
 train_data = data[:n]
 val_data = data[n:]
 
-# Veri bloğu (batch) oluşturma
 def get_batch(split):
     data = train_data if split == 'train' else val_data
     ix = torch.randint(len(data) - block_size, (batch_size,))
@@ -62,32 +53,25 @@ def estimate_loss():
     model.train()
     return out
 
-# model.py'dan GPT modelini import edelim
 from model import GPTLanguageModel 
 
 model = GPTLanguageModel()
-model.to(device) # Modeli GPU'ya veya CPU'ya taşı
+model.to(device)
 
-# Optimizer'ı oluşturalım (AdamW, Transformer'lar için iyi bir seçimdir)
 optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
 
-# Eğitim döngüsü
 for iter in range(max_iters):
 
-    # Her 'eval_interval' adımda bir loss'u değerlendirelim
     if iter % eval_interval == 0 or iter == max_iters - 1:
         losses = estimate_loss()
         print(f"step {iter}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}")
 
-    # Eğitim verisinden bir batch alalım
     xb, yb = get_batch('train')
 
-    # loss'u hesaplayıp gradient'leri güncelleyelim
     logits, loss = model(xb, yb)
-    optimizer.zero_grad(set_to_none=True) # Gradient'leri sıfırla
-    loss.backward()                       # Backpropagation
-    optimizer.step()                      # Parametreleri güncelle
+    optimizer.zero_grad(set_to_none=True)
+    loss.backward()
+    optimizer.step()
 
-# Eğitilmiş modeli kaydet
 torch.save(model.state_dict(), 'gpt_model.pth')
 print("Model eğitimi tamamlandı ve 'gpt_model.pth' olarak kaydedildi.")
